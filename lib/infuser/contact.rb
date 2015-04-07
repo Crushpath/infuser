@@ -3,9 +3,9 @@ module Infuser
 
     define_schema :first_name, :middle_name, :nickname, :last_name, :suffix, :title,
       :company_id, :job_title, :assistant_name, :assistant_phone,
-      :contact_notes, :contact_type,
+      :contact_notes, :contact_type, :leadsource,
       :referral_code, :spouse_name, :username, :website,
-      :date_created, :last_updated, :created_by
+      :date_created, :last_updated, :created_by, :owner_id
 
     belongs_to :company
 
